@@ -1,0 +1,46 @@
+
+body {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 50px);
+    background: rgb(209, 204, 252);
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    margin-top: 0px;
+}
+
+.partition {
+    width: calc(100vw - 50px);
+    height: 15vh;
+    border: 10px solid black;
+    border-style: dotted;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.option {
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(145, 132, 255);
+    border-radius: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
